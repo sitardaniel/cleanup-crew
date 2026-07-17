@@ -1,0 +1,22 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+dist/
+build/
+
+# local state / audit logs / generated reports — not meant to be committed.
+# To publish a report to GitHub Pages, generate it explicitly into
+# docs/reports/ instead (that path is intentionally NOT ignored below).
+.awscleanup/
+*.awscleanup-state.json
+/reports/
+
+.DS_Store
+.env
+
+# local Claude Code session config, not part of the project
+.claude/
