@@ -1,8 +1,14 @@
 # cleanup-crew
 
+[![CI](https://github.com/sitardaniel/cleanup-crew/actions/workflows/ci.yml/badge.svg)](https://github.com/sitardaniel/cleanup-crew/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](pyproject.toml)
+
 Scan your AWS account for unused resources, review evidence-backed findings,
 and clean them up safely — with a tag-and-wait grace period so nothing gets
 deleted the moment it's flagged.
+
+**[Live sample report →](https://sitardaniel.github.io/cleanup-crew/)**
 
 ## Why
 
